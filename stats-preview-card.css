@@ -31,11 +31,22 @@ body {
 
 .hero-image{
     flex-grow: 1;
+    position: relative;
 
 }
 img {
   border-radius: 0px 10px 10px 0px;
   padding: 0px;
+}
+.overlay{
+  background-color: hsl(277, 64%, 61%);
+  position:absolute;
+  width: 400px;
+  height: 330px;
+  top:0;
+  left:0;
+  opacity: 0.5;
+  border-radius: 0px 10px 10px 0px;
 }
 span {
   color: hsl(277, 64%, 61%);
@@ -48,4 +59,7 @@ span {
 }
 h1{
   font-family: 'inter';
+}
+.words{
+  color:  hsla(0, 0%, 100%, 0.6);
 }
